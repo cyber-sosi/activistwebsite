@@ -47,5 +47,5 @@ function displayMsg() {
   setTimeout(function clearMsg() {thankYou.innerHTML = " "}, 2000);
   
   input.value = "";
-  input.value = "";
+  
 }

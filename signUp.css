@@ -113,6 +113,10 @@ p {
    margin-right: 0.75%;
 }
 
+#thankYou {
+   color: #04773B;
+}
+
 button {
    padding: 15px;
    background-color: #04773B;

@@ -79,7 +79,7 @@ div.m11 {
    width: 30%;
    height: 30%;
    background-color: #F1EAEA;
-   padding-bottom: 150px;
+   padding-bottom: 20px;
    display: block;
    margin: 2%;
    border-radius: 20px;
@@ -91,6 +91,9 @@ div.m11 {
 
 p.small {
    font-size: 18px;
+   height: 10%;
+   padding-right: 10px;
+   padding-left: 10px;
 }
 
 /* Style Header */
@@ -111,7 +114,7 @@ div.header {
 /* Style Main */
 div.main2 {
    background-color: #F1EAEA;
-   padding-bottom: 200px;
+   padding-bottom: 20px;
    border-radius: 20px;
    border: 2px #04773B solid;
    box-sizing: border-box;
@@ -120,6 +123,8 @@ div.main2 {
 
 #fact {
    font-size: 20px;
+   padding-right: 10px;
+   padding-left: 10px;
 }
 
 button {
@@ -181,12 +186,24 @@ button:hover {
       width: 70%;
       font-size: 20px;
    }
+
+   div.main1{
+      flex-wrap: wrap;
+      width: 70%;
+   }
+
+   div.m11 {
+      align-self: center
+   }
+
 }
 
 @media screen and (max-width: 550px) {
    div.header {
       top: 13%;
    }
+
+ 
 }
 
 @media screen and (max-width: 500px) {
@@ -195,6 +212,7 @@ button:hover {
       width: 75%;
       font-size: 18px;
    }
+
 }
 
 /* */
@@ -204,3 +222,4 @@ button:hover {
       font-size: 14px;
    }
 }
+

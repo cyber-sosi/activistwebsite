@@ -47,5 +47,5 @@ function displayMsg() {
   setTimeout(function clearMsg() {thankYou.innerHTML = " "}, 2000);
   
   input.value = "";
-  console.log("gg");
+  input.value = "";
 }

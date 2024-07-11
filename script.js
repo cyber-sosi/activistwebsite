@@ -43,4 +43,5 @@ if(signUp) {
 
 function displayMsg() {
   thankYou.innerHTML = "Thank you for signing up!";
+  setTimeout(function clearMsg() {thankYou.innerHTML = " "}, 2000);
 }

@@ -1,4 +1,7 @@
 /* .js files add interaction to your website */
+
+/* Generate Facts */
+
 var factList = [
   "Global warming is causing the Earth’s average surface temperature to rise which, in turn, is causing changes in our natural climate systems. These changes are making all sorts of extreme weather events more likely and more severe, including more intense droughts, heatwaves and hurricanes but also, strangely, an increased potential for more severe cold weather events.",
   "The most abundant greenhouse gas, accounting for about two-thirds of greenhouse gases, carbon dioxide (CO2), is largely the product of burning fossil fuels.",
@@ -26,4 +29,18 @@ function displayFact() {
     index = 0;
   }
   
+}
+
+/* Sign Up Message */
+
+var input = document.getElementById("input");
+var signUp = document.getElementById("signUp");
+var thankYou = document.getElementById("thankYou");
+
+if(signUp) {
+  signUp.addEventListener("click", displayMsg);
+}
+
+function displayMsg() {
+  thankYou.innerHTML = "Thank you for signing up!";
 }
